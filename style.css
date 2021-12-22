@@ -1,0 +1,59 @@
+.spacer{
+    height: 35px;
+}
+/*head*/
+.hd-box{
+    width: 50%;
+    
+}
+.b1{
+    padding: 80px 40px 80px 40px;
+}
+.h-h1{
+    font-family: Pockota;
+    font-weight: 500;
+    font-size: 64px;
+}
+/*cards*/
+
+.main-box{
+    padding: 40px;
+}
+.box-30{
+    width: 30%;
+}
+/*svg boxes*/
+sm-img-box{
+    padding: 30px;
+}
+/*men*/
+.b2{
+    background-color: #f0f0ff;
+}
+
+@media (max-width: 994px){
+.main-box{
+    padding: 24px;
+}
+.box-30{
+    width: 45%;
+}
+}
+@media (max-width: 689px){
+    .hd-box{
+        width: 100%;
+    }
+    .cls-col{
+        flex-direction: column-reverse!important;
+    }
+    .b1{
+        padding: 32px 24px 32px 24px;
+    }
+    .h-h1{
+        font-size: 32px;
+    }
+    .box-30{
+        width: 90vw;
+    }
+}
+
