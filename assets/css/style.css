@@ -14,6 +14,17 @@ margin-top: 20%;
 font-size: 64px;
 font-family: pockota;
 }
+#A
+{
+  background-color: #333346;
+  color:white;
+   
+}
+#A:hover
+{
+    background-color: white;
+    color:black;
+}
 @media (max-width: 768px){
     .xt{
       margin-top: 0px;
